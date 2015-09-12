@@ -18,3 +18,5 @@ func main() {
         fmt.Println("Random Key:", randomKey)
 }
 ```
+## Credits
+http://stackoverflow.com/a/31832326/4858295
