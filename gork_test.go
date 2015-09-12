@@ -41,3 +41,9 @@ func BenchmarkBytesMaskImprSrc(b *testing.B) {
 		RandStringBytesMaskImprSrc(n)
 	}
 }
+
+func BenchmarkFastAlpha(b *testing.B) {
+    for i := 0; i < b.N; i++ {
+        FastAlpha(n)
+    }
+}
